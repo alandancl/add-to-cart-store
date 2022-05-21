@@ -10,10 +10,10 @@ function printProducts(arrProducts) {
                     </div>
                     <div class="card-body p-3">
                         <h6 class="product-name text-center">${ arrProducts[i].name }</h6>
-                        <h5 class="product-price">${ arrProducts[i].price }</h5>
+                        <h5 class="product-price">$${ arrProducts[i].price }</h5>
                         <div class="add-to-cart-container">
                             <i class="fa-solid fa-cart-circle-plus"></i>
-                            <button onclick="addToCart(${arrProducts[i].id})" class="add-to-cart btn btn-primary">
+                            <button onclick="addToCart(${arrProducts[i].id})" class="add-to-cart btn btn-success">
                                 <i class="fa-solid fa-cart-plus"></i> Add to cart
                             </button>
                         </div>

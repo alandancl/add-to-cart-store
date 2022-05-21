@@ -64,6 +64,7 @@ svg.logo {
 #products-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .product-img-container {
@@ -89,7 +90,7 @@ svg.logo {
 }
 
 .product-price {
-    text-align: right;
+    text-align: center;
 }
 
 .add-to-cart-container {
@@ -118,6 +119,16 @@ svg.logo {
     align-items: center;
     padding: 15px 0;
     flex-wrap: wrap;
+}
+
+.car-product:hover {
+    
+    box-shadow: 0px 0px 2px #434343;
+}
+
+.cart-product:hover {
+    
+    box-shadow: 0px 0px 2px #434343;
 }
 
 .product-img-cart {
